@@ -1,4 +1,4 @@
-
+"use client";
 
 const Mission = () => {
     return (
@@ -6,6 +6,11 @@ const Mission = () => {
              <div>
             This is mission page.
         </div>
+        <div>
+        <button onClick={() => console.log("Button clicked")}>
+          Click here
+        </button>
+      </div>
        </main>
     );
 };
